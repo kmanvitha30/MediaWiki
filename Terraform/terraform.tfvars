@@ -1,0 +1,8 @@
+region = "us-central1"
+project = "project-1"
+name="mediawiki"
+machinetype="n1-standard-4"
+zone="us-central1-c"
+image="ubuntu-1804-bionic-v20200317"
+port="30007"
+ssh_user="<gcp_ssh_username>"

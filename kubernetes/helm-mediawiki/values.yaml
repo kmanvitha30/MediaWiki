@@ -1,0 +1,18 @@
+# Default values for mediawiki.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: manvitha9630/mediawiki
+  tag: latest
+
+containerPort: 80
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 80
+  nodePort: 30007
+
