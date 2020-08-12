@@ -1,5 +1,8 @@
 # MediaWiki 
 
+![architecture](https://github.com/kmanvitha30/MediaWiki/blob/master/mediawiki.png)
+
+
 The below automation is used to set-up mediawiki with mariadb as the database.
 
 ### Pre-Requisities
